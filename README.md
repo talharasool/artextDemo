@@ -2,7 +2,7 @@
 AR Text Demo<br />
 Here how you will use this code.<br />
 1- Go to firebase, create app with the help of below link.<br />
-https://firebase.google.com/docs/ios/setup
+https://firebase.google.com/docs/ios/setup<br />
 2- Make sure your App-Identifier must be same with the Firebase App.<br />
 3- After competion your app registration firebase will give you GoogleInfo.plist, add it in project.<br />
 4- Go to the Firebase database and Create a new node with like the example "placeHolder : Hello world".<br />
