@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FEA852E13D38950085E5C40 /* Pods_ARTextDemoApp_ARTextDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B67D9C21BF8C43EFAD2C35 /* Pods_ARTextDemoApp_ARTextDemoAppUITests.framework */; };
+		7A7D94DFA2BA094ECD687B03 /* Pods_ARTextDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEAE3A9E3008A21DA06C714 /* Pods_ARTextDemoApp.framework */; };
+		B256E06550F3B5D1193C1166 /* Pods_ARTextDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0613F314709B7400A15BCFDE /* Pods_ARTextDemoAppTests.framework */; };
 		BC40956F26FCDA24003418A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40956E26FCDA24003418A5 /* AppDelegate.swift */; };
 		BC40957126FCDA24003418A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40957026FCDA24003418A5 /* SceneDelegate.swift */; };
 		BC40957326FCDA24003418A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40957226FCDA24003418A5 /* ViewController.swift */; };
@@ -15,6 +18,11 @@
 		BC40957B26FCDA28003418A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC40957926FCDA28003418A5 /* LaunchScreen.storyboard */; };
 		BC40958626FCDA28003418A5 /* ARTextDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40958526FCDA28003418A5 /* ARTextDemoAppTests.swift */; };
 		BC40959126FCDA29003418A5 /* ARTextDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40959026FCDA29003418A5 /* ARTextDemoAppUITests.swift */; };
+		BC40959F26FCDB96003418A5 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40959E26FCDB96003418A5 /* TextNode.swift */; };
+		BC4095A126FCDBCF003418A5 /* ARText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4095A026FCDBCF003418A5 /* ARText.swift */; };
+		BC4095A326FCDC2D003418A5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4095A226FCDC2D003418A5 /* Utilities.swift */; };
+		BC5A0B8F26FF0010008AFCB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC5A0B8E26FF0010008AFCB7 /* GoogleService-Info.plist */; };
+		BC5A0B9126FF02A4008AFCB7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A0B9026FF02A4008AFCB7 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0613F314709B7400A15BCFDE /* Pods_ARTextDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTextDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D4B856940A19395A6FFBD5 /* Pods-ARTextDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTextDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ARTextDemoAppTests/Pods-ARTextDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DEAE3A9E3008A21DA06C714 /* Pods_ARTextDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTextDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F56DC0870A1B37A8817132 /* Pods-ARTextDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTextDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-ARTextDemoApp/Pods-ARTextDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BC40956B26FCDA24003418A5 /* ARTextDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTextDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC40956E26FCDA24003418A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC40957026FCDA24003418A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		BC40958C26FCDA28003418A5 /* ARTextDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTextDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC40959026FCDA29003418A5 /* ARTextDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTextDemoAppUITests.swift; sourceTree = "<group>"; };
 		BC40959226FCDA29003418A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC40959E26FCDB96003418A5 /* TextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextNode.swift; sourceTree = "<group>"; };
+		BC4095A026FCDBCF003418A5 /* ARText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARText.swift; sourceTree = "<group>"; };
+		BC4095A226FCDC2D003418A5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BC5A0B8E26FF0010008AFCB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC5A0B9026FF02A4008AFCB7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BCA0D252F92E33023BBEF15A /* Pods-ARTextDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTextDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-ARTextDemoAppTests/Pods-ARTextDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8C8AD1B236CEAD6A78B505B /* Pods-ARTextDemoApp-ARTextDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTextDemoApp-ARTextDemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARTextDemoApp-ARTextDemoAppUITests/Pods-ARTextDemoApp-ARTextDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7499FABF5D1BFAA22D3847E /* Pods-ARTextDemoApp-ARTextDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTextDemoApp-ARTextDemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ARTextDemoApp-ARTextDemoAppUITests/Pods-ARTextDemoApp-ARTextDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBCF543CDB88550BA0B57DA3 /* Pods-ARTextDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTextDemoApp.release.xcconfig"; path = "Target Support Files/Pods-ARTextDemoApp/Pods-ARTextDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		F2B67D9C21BF8C43EFAD2C35 /* Pods_ARTextDemoApp_ARTextDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTextDemoApp_ARTextDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7D94DFA2BA094ECD687B03 /* Pods_ARTextDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B256E06550F3B5D1193C1166 /* Pods_ARTextDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEA852E13D38950085E5C40 /* Pods_ARTextDemoApp_ARTextDemoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9613A4326E5C26D0B5D92A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61F56DC0870A1B37A8817132 /* Pods-ARTextDemoApp.debug.xcconfig */,
+				EBCF543CDB88550BA0B57DA3 /* Pods-ARTextDemoApp.release.xcconfig */,
+				C8C8AD1B236CEAD6A78B505B /* Pods-ARTextDemoApp-ARTextDemoAppUITests.debug.xcconfig */,
+				E7499FABF5D1BFAA22D3847E /* Pods-ARTextDemoApp-ARTextDemoAppUITests.release.xcconfig */,
+				14D4B856940A19395A6FFBD5 /* Pods-ARTextDemoAppTests.debug.xcconfig */,
+				BCA0D252F92E33023BBEF15A /* Pods-ARTextDemoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2914B40FD70510AA8A502FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DEAE3A9E3008A21DA06C714 /* Pods_ARTextDemoApp.framework */,
+				F2B67D9C21BF8C43EFAD2C35 /* Pods_ARTextDemoApp_ARTextDemoAppUITests.framework */,
+				0613F314709B7400A15BCFDE /* Pods_ARTextDemoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC40956226FCDA24003418A5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				BC40958426FCDA28003418A5 /* ARTextDemoAppTests */,
 				BC40958F26FCDA29003418A5 /* ARTextDemoAppUITests */,
 				BC40956C26FCDA24003418A5 /* Products */,
+				0A9613A4326E5C26D0B5D92A /* Pods */,
+				A2914B40FD70510AA8A502FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +152,15 @@
 				BC40956E26FCDA24003418A5 /* AppDelegate.swift */,
 				BC40957026FCDA24003418A5 /* SceneDelegate.swift */,
 				BC40957226FCDA24003418A5 /* ViewController.swift */,
+				BC5A0B9026FF02A4008AFCB7 /* WelcomeViewController.swift */,
 				BC40957426FCDA24003418A5 /* Main.storyboard */,
 				BC40957726FCDA28003418A5 /* Assets.xcassets */,
+				BC40959E26FCDB96003418A5 /* TextNode.swift */,
+				BC4095A026FCDBCF003418A5 /* ARText.swift */,
+				BC4095A226FCDC2D003418A5 /* Utilities.swift */,
 				BC40957926FCDA28003418A5 /* LaunchScreen.storyboard */,
 				BC40957C26FCDA28003418A5 /* Info.plist */,
+				BC5A0B8E26FF0010008AFCB7 /* GoogleService-Info.plist */,
 			);
 			path = ARTextDemoApp;
 			sourceTree = "<group>";
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC40959526FCDA29003418A5 /* Build configuration list for PBXNativeTarget "ARTextDemoApp" */;
 			buildPhases = (
+				649621B75467CF70C7C63983 /* [CP] Check Pods Manifest.lock */,
 				BC40956726FCDA24003418A5 /* Sources */,
 				BC40956826FCDA24003418A5 /* Frameworks */,
 				BC40956926FCDA24003418A5 /* Resources */,
+				39A807906453456929340F00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC40959826FCDA29003418A5 /* Build configuration list for PBXNativeTarget "ARTextDemoAppTests" */;
 			buildPhases = (
+				5880E9E8893F376BF529C4BD /* [CP] Check Pods Manifest.lock */,
 				BC40957D26FCDA28003418A5 /* Sources */,
 				BC40957E26FCDA28003418A5 /* Frameworks */,
 				BC40957F26FCDA28003418A5 /* Resources */,
@@ -170,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC40959B26FCDA29003418A5 /* Build configuration list for PBXNativeTarget "ARTextDemoAppUITests" */;
 			buildPhases = (
+				E54B4DEF58151139FFE97D9C /* [CP] Check Pods Manifest.lock */,
 				BC40958826FCDA28003418A5 /* Sources */,
 				BC40958926FCDA28003418A5 /* Frameworks */,
 				BC40958A26FCDA28003418A5 /* Resources */,
+				1B2AA4F40C36F427578CCD78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5A0B8F26FF0010008AFCB7 /* GoogleService-Info.plist in Resources */,
 				BC40957B26FCDA28003418A5 /* LaunchScreen.storyboard in Resources */,
 				BC40957826FCDA28003418A5 /* Assets.xcassets in Resources */,
 				BC40957626FCDA24003418A5 /* Main.storyboard in Resources */,
@@ -253,14 +314,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B2AA4F40C36F427578CCD78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTextDemoApp-ARTextDemoAppUITests/Pods-ARTextDemoApp-ARTextDemoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTextDemoApp-ARTextDemoAppUITests/Pods-ARTextDemoApp-ARTextDemoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTextDemoApp-ARTextDemoAppUITests/Pods-ARTextDemoApp-ARTextDemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39A807906453456929340F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTextDemoApp/Pods-ARTextDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTextDemoApp/Pods-ARTextDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTextDemoApp/Pods-ARTextDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5880E9E8893F376BF529C4BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTextDemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649621B75467CF70C7C63983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTextDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54B4DEF58151139FFE97D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTextDemoApp-ARTextDemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC40956726FCDA24003418A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4095A326FCDC2D003418A5 /* Utilities.swift in Sources */,
+				BC40959F26FCDB96003418A5 /* TextNode.swift in Sources */,
 				BC40957326FCDA24003418A5 /* ViewController.swift in Sources */,
 				BC40956F26FCDA24003418A5 /* AppDelegate.swift in Sources */,
 				BC40957126FCDA24003418A5 /* SceneDelegate.swift in Sources */,
+				BC4095A126FCDBCF003418A5 /* ARText.swift in Sources */,
+				BC5A0B9126FF02A4008AFCB7 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,17 +601,19 @@
 		};
 		BC40959626FCDA29003418A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F56DC0870A1B37A8817132 /* Pods-ARTextDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTZ5XZ288;
 				INFOPLIST_FILE = ARTextDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.irfan.artextdemo.ARTextDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irfan.toyshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,17 +622,19 @@
 		};
 		BC40959726FCDA29003418A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCF543CDB88550BA0B57DA3 /* Pods-ARTextDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTZ5XZ288;
 				INFOPLIST_FILE = ARTextDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.irfan.artextdemo.ARTextDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irfan.toyshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,6 +643,7 @@
 		};
 		BC40959926FCDA29003418A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D4B856940A19395A6FFBD5 /* Pods-ARTextDemoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +666,7 @@
 		};
 		BC40959A26FCDA29003418A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA0D252F92E33023BBEF15A /* Pods-ARTextDemoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +689,7 @@
 		};
 		BC40959C26FCDA29003418A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C8AD1B236CEAD6A78B505B /* Pods-ARTextDemoApp-ARTextDemoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +710,7 @@
 		};
 		BC40959D26FCDA29003418A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7499FABF5D1BFAA22D3847E /* Pods-ARTextDemoApp-ARTextDemoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
