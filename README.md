@@ -10,4 +10,5 @@ https://firebase.google.com/docs/ios/setup<br />
 6- Fecth data with repect to the given node. In my case is "placeHolder". How to read and write data in firebase you can follow this link.
 https://firebase.google.com/docs/database/ios/read-and-write<br />
 7- Setup the Sence view and pass Text to it<br />
+<iframe src="https://giphy.com/embed/wrmcaRjaj9LH8a9lrC" width="222" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wrmcaRjaj9LH8a9lrC">via GIPHY</a></p>
 
